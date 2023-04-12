@@ -1,0 +1,41 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: 'EB Garamond', serif;;
+  	background:url(photo1.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-size: 2em;
+	color: rgb(46, 63, 67);
+	font-weight: 900;
+}
+
+.buffer { 
+	height: 20em;
+}
+
+.help {
+	color: blue;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+}
+
+.btn-success:hover {
+  background-color: #40C457;
+  border-color: #40C457;
+  border-width: 4px;
+  text-transform: uppercase;
+}
+
+.btn-xl { 
+    padding: 1rem 2rem;
+ }
+
